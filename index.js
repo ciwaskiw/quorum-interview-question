@@ -16,7 +16,7 @@ async function generateOutput() {
 	const deliverable1 = computerDeliverable1(legislators, voteResults)
 
 	//Computer deliverable 2
-	const deliverable2 = computerDeliverable2(legislators, voteResults, votes)
+	const deliverable2 = computerDeliverable2(bills, voteResults, votes)
 
 	//Write deliverables to disk
 	writeOutputToCsv("output/legislators-support-oppose-count.csv", deliverable1)
