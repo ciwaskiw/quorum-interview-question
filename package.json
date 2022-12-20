@@ -1,0 +1,24 @@
+{
+  "name": "quorum-interview-question",
+  "version": "1.0.0",
+  "description": "Interview question for quorum, 12-19-2022",
+  "main": "exercise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciwaskiw/quorum-interview-question.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciwaskiw/quorum-interview-question/issues"
+  },
+  "homepage": "https://github.com/ciwaskiw/quorum-interview-question#readme",
+  "dependencies": {
+    "csv": "^6.2.5",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  }
+}
